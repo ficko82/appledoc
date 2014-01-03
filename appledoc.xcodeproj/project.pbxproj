@@ -28,7 +28,7 @@
 		7317FAB8150F534100B39CFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7317FAB7150F534100B39CFD /* Cocoa.framework */; };
 		7317FAC4150F56A500B39CFD /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED9445150E9FEC0032FD07 /* Logging.m */; };
 		7317FAC5150F56A800B39CFD /* Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D274DD150E0D60004D27F4 /* Appledoc.m */; };
-		7317FACE150F633900B39CFD /* SettingsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7317FACD150F633900B39CFD /* SettingsTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7317FACE150F633900B39CFD /* SettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7317FACD150F633900B39CFD /* SettingsTests.m */; };
 		7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73239A11155706380077AB8A /* StateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 73239A10155706380077AB8A /* StateBase.m */; };
 		73239A12155706380077AB8A /* StateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 73239A10155706380077AB8A /* StateBase.m */; };
@@ -205,6 +205,7 @@
 
 /* Begin PBXFileReference section */
 		3AF70AE5881A4C199E0B81E9 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		686F2E791876E9E900D922E4 /* TestCaseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCaseBase.h; sourceTree = "<group>"; };
 		686F2E7A1876EA3C00D922E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
 		730BCC8A1540046F00B909FD /* AttributesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesInfo.h; sourceTree = "<group>"; };
@@ -230,7 +231,7 @@
 		7317FAB7150F534100B39CFD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7317FABB150F544400B39CFD /* AppledocTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppledocTests-Info.plist"; sourceTree = "<group>"; };
 		7317FABC150F544400B39CFD /* AppledocTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppledocTests-Prefix.pch"; sourceTree = "<group>"; };
-		7317FACD150F633900B39CFD /* SettingsTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsTests.mm; sourceTree = "<group>"; };
+		7317FACD150F633900B39CFD /* SettingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTests.m; sourceTree = "<group>"; };
 		731F83DA15109D5F00112FD1 /* Objects+TestingPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objects+TestingPrivateAPI.h"; sourceTree = "<group>"; };
 		7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCInterfaceStateTests.mm; sourceTree = "<group>"; };
 		73239A0F155706380077AB8A /* StateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateBase.h; sourceTree = "<group>"; };
@@ -446,6 +447,7 @@
 			isa = PBXGroup;
 			children = (
 				73DFDD4115527F2D007746D4 /* TestCaseBase.hh */,
+				686F2E791876E9E900D922E4 /* TestCaseBase.h */,
 				737C82A1152307AE0064DC46 /* TestStrings.h */,
 				737C82A2152307AE0064DC46 /* TestStrings.m */,
 				733256EF1677269800CA90E1 /* StoreMocks.h */,
@@ -459,7 +461,7 @@
 		7317FACB150F630F00B39CFD /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				7317FACD150F633900B39CFD /* SettingsTests.mm */,
+				7317FACD150F633900B39CFD /* SettingsTests.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -906,7 +908,7 @@
 			files = (
 				7317FAC4150F56A500B39CFD /* Logging.m in Sources */,
 				7317FAC5150F56A800B39CFD /* Appledoc.m in Sources */,
-				7317FACE150F633900B39CFD /* SettingsTests.mm in Sources */,
+				7317FACE150F633900B39CFD /* SettingsTests.m in Sources */,
 				73280F29150FE48700D1E6E8 /* GBSettings+Appledoc.m in Sources */,
 				73280F321510989600D1E6E8 /* AppledocTests.mm in Sources */,
 				73500D3115174910000416E3 /* Store.m in Sources */,
