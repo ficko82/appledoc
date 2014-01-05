@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		686F2E7C1876EA7D00D922E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686F2E7A1876EA3C00D922E4 /* XCTest.framework */; };
 		686F2E7D1876ED0D00D922E4 /* AppledocTests-Info.plist in Copy resources to bundle */ = {isa = PBXBuildFile; fileRef = 7317FABB150F544400B39CFD /* AppledocTests-Info.plist */; };
+		686F2EC0187763B900D922E4 /* AppledocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 686F2EBF187763B900D922E4 /* AppledocTests.m */; };
 		730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		730BCC8C1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
 		730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
@@ -37,7 +38,6 @@
 		73239A1D1557BF150077AB8A /* ObjectiveCConstantStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73239A1C1557BF150077AB8A /* ObjectiveCConstantStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73280F28150FE48700D1E6E8 /* GBSettings+Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73280F27150FE48700D1E6E8 /* GBSettings+Appledoc.m */; };
 		73280F29150FE48700D1E6E8 /* GBSettings+Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73280F27150FE48700D1E6E8 /* GBSettings+Appledoc.m */; };
-		73280F321510989600D1E6E8 /* AppledocTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73280F311510989600D1E6E8 /* AppledocTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		732978F415187F3E00592A9D /* ParserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 732978F315187F3E00592A9D /* ParserTask.m */; };
 		732978F515187F3E00592A9D /* ParserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 732978F315187F3E00592A9D /* ParserTask.m */; };
 		7329790215188A4C00592A9D /* ObjectiveCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7329790115188A4C00592A9D /* ObjectiveCParser.m */; };
@@ -207,6 +207,7 @@
 		3AF70AE5881A4C199E0B81E9 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		686F2E791876E9E900D922E4 /* TestCaseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCaseBase.h; sourceTree = "<group>"; };
 		686F2E7A1876EA3C00D922E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		686F2EBF187763B900D922E4 /* AppledocTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTests.m; sourceTree = "<group>"; };
 		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
 		730BCC8A1540046F00B909FD /* AttributesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesInfo.h; sourceTree = "<group>"; };
 		730BCC8B1540046F00B909FD /* AttributesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesInfo.m; sourceTree = "<group>"; };
@@ -241,7 +242,6 @@
 		73239A1C1557BF150077AB8A /* ObjectiveCConstantStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCConstantStateTests.mm; sourceTree = "<group>"; };
 		73280F26150FE48700D1E6E8 /* GBSettings+Appledoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GBSettings+Appledoc.h"; sourceTree = "<group>"; };
 		73280F27150FE48700D1E6E8 /* GBSettings+Appledoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GBSettings+Appledoc.m"; sourceTree = "<group>"; };
-		73280F311510989600D1E6E8 /* AppledocTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppledocTests.mm; sourceTree = "<group>"; };
 		732978F215187F3E00592A9D /* ParserTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserTask.h; sourceTree = "<group>"; };
 		732978F315187F3E00592A9D /* ParserTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserTask.m; sourceTree = "<group>"; };
 		7329790015188A4C00592A9D /* ObjectiveCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCParser.h; sourceTree = "<group>"; };
@@ -469,7 +469,7 @@
 		73280F2F1510987200D1E6E8 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				73280F311510989600D1E6E8 /* AppledocTests.mm */,
+				686F2EBF187763B900D922E4 /* AppledocTests.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -910,7 +910,6 @@
 				7317FAC5150F56A800B39CFD /* Appledoc.m in Sources */,
 				7317FACE150F633900B39CFD /* SettingsTests.m in Sources */,
 				73280F29150FE48700D1E6E8 /* GBSettings+Appledoc.m in Sources */,
-				73280F321510989600D1E6E8 /* AppledocTests.mm in Sources */,
 				73500D3115174910000416E3 /* Store.m in Sources */,
 				73500D351517581A000416E3 /* Parser.m in Sources */,
 				734425131517631F00B6EC33 /* ParserTests.mm in Sources */,
@@ -995,6 +994,7 @@
 				73DC6D30164800B900C1AA0D /* CommentSectionInfo.m in Sources */,
 				73D76C5C1660BBE900B611AB /* RegisterCommentComponentsTask.m in Sources */,
 				73D76C5E1660BF9A00B611AB /* RegisterCommentComponentsTaskTests.mm in Sources */,
+				686F2EC0187763B900D922E4 /* AppledocTests.m in Sources */,
 				73D76C6A16613B5D00B611AB /* DetectCrossReferencesTask.m in Sources */,
 				73D76C6D16613C4700B611AB /* DetectCrossReferencesTaskTests.mm in Sources */,
 				73C0A83C166CD7EF00101C7F /* ObjectsCacher.m in Sources */,

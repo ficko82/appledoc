@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7317FA99150F51FD00B39CFD"
-               BuildableName = "AppledocTests.octest"
+               BuildableName = "AppledocTests.xctest"
                BlueprintName = "AppledocTests"
                ReferencedContainer = "container:appledoc.xcodeproj">
             </BuildableReference>
