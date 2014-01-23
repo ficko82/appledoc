@@ -13,7 +13,7 @@
 #import "TestCaseBase.h"
 
 @interface Appledoc (TestingPrivateAPI)
-	@property (nonatomic, strong) GBSettings *settings;
+@property (nonatomic, strong) GBSettings *settings;
 @end
 
 @implementation AppledocTests
