@@ -16,6 +16,9 @@
 @property (nonatomic, strong) GBSettings *settings;
 @end
 
+@interface AppledocTests : XCTestCase
+@end
+
 @implementation AppledocTests
 
 #pragma mark - Lazy accessors

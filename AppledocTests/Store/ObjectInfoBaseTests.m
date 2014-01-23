@@ -9,6 +9,9 @@
 #import "ObjectInfoBase.h"
 #import "TestCaseBase.h"
 
+@interface ObjectInfoBaseTests : XCTestCase
+@end
+
 @implementation ObjectInfoBaseTests
 
 - (void)testPushObjectToRegistrationStack_ShouldForwardRequestToAssignedStoreRegistrar {
