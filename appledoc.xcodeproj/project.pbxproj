@@ -11,6 +11,7 @@
 		686F2E7D1876ED0D00D922E4 /* AppledocTests-Info.plist in Copy resources to bundle */ = {isa = PBXBuildFile; fileRef = 7317FABB150F544400B39CFD /* AppledocTests-Info.plist */; };
 		686F2EC0187763B900D922E4 /* AppledocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 686F2EBF187763B900D922E4 /* AppledocTests.m */; };
 		68709A161879F80B00C6FA1B /* ObjectInfoBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68709A151879F80B00C6FA1B /* ObjectInfoBaseTests.m */; };
+		687BEDD81882904600847402 /* ConstantInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BEDD71882904600847402 /* ConstantInfoTests.m */; };
 		730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		730BCC8C1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
 		730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
@@ -54,7 +55,6 @@
 		73350210167601D100C514AB /* FetchDocumentationTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7335020E167601D100C514AB /* FetchDocumentationTask.m */; };
 		7336652515457A2E000F7AFF /* ConstantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336652415457A2E000F7AFF /* ConstantInfo.m */; };
 		7336652615457A2E000F7AFF /* ConstantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7336652415457A2E000F7AFF /* ConstantInfo.m */; };
-		7336652915457BF7000F7AFF /* ConstantInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7336652815457BF7000F7AFF /* ConstantInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		733A93121671ED9800734F0A /* LinkKnownObjectsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */; };
 		733A93131671ED9800734F0A /* LinkKnownObjectsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */; };
 		733A93161671EF0600734F0A /* LinkKnownObjectsTaskTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -209,6 +209,7 @@
 		686F2E7A1876EA3C00D922E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		686F2EBF187763B900D922E4 /* AppledocTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTests.m; sourceTree = "<group>"; };
 		68709A151879F80B00C6FA1B /* ObjectInfoBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInfoBaseTests.m; sourceTree = "<group>"; };
+		687BEDD71882904600847402 /* ConstantInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantInfoTests.m; sourceTree = "<group>"; };
 		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
 		730BCC8A1540046F00B909FD /* AttributesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesInfo.h; sourceTree = "<group>"; };
 		730BCC8B1540046F00B909FD /* AttributesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesInfo.m; sourceTree = "<group>"; };
@@ -259,7 +260,6 @@
 		7335020E167601D100C514AB /* FetchDocumentationTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchDocumentationTask.m; sourceTree = "<group>"; };
 		7336652315457A2E000F7AFF /* ConstantInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantInfo.h; sourceTree = "<group>"; };
 		7336652415457A2E000F7AFF /* ConstantInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ConstantInfo.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		7336652815457BF7000F7AFF /* ConstantInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConstantInfoTests.mm; sourceTree = "<group>"; };
 		733A93101671ED9800734F0A /* LinkKnownObjectsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkKnownObjectsTask.h; sourceTree = "<group>"; };
 		733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LinkKnownObjectsTask.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = LinkKnownObjectsTaskTests.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -573,7 +573,7 @@
 				733E445C153D516E0039010F /* MethodInfoTests.mm */,
 				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */,
 				730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */,
-				7336652815457BF7000F7AFF /* ConstantInfoTests.mm */,
+				687BEDD71882904600847402 /* ConstantInfoTests.m */,
 				73A0267E15D6D4870077D204 /* CommentInfoTests.mm */,
 				73558FC71642F6F900E17831 /* CommentSectionTests.mm */,
 			);
@@ -960,7 +960,6 @@
 				73E416E51541BAE000600606 /* StructInfo.m in Sources */,
 				73E416E71541E12200600606 /* StructInfoTests.mm in Sources */,
 				7336652615457A2E000F7AFF /* ConstantInfo.m in Sources */,
-				7336652915457BF7000F7AFF /* ConstantInfoTests.mm in Sources */,
 				73F5C87115480DFF005BE2D6 /* CategoryInfoTests.mm in Sources */,
 				73A589FE15493F5B003838E0 /* DescriptorsInfo.m in Sources */,
 				73A58A01154940DC003838E0 /* DescriptorsInfoTests.mm in Sources */,
@@ -978,6 +977,7 @@
 				73A0267F15D6D4870077D204 /* CommentInfoTests.mm in Sources */,
 				73A0268615D6DC830077D204 /* Processor.m in Sources */,
 				73A0268A15D6E35F0077D204 /* ProcessorTask.m in Sources */,
+				687BEDD81882904600847402 /* ConstantInfoTests.m in Sources */,
 				73A0268E15D6EFB50077D204 /* ProcessorTests.mm in Sources */,
 				73A3E48C15D8288D00769863 /* SplitCommentToSectionsTask.m in Sources */,
 				73A3E48E15D8369500769863 /* SplitCommentToSectionsTaskTests.mm in Sources */,
