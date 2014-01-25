@@ -73,7 +73,7 @@
 		// execute
 		[info appendMethodGroupWithDescription:@"description"];
 		// verify
-		XCTAssertThrows([verify(mock) pushRegistrationObject:instanceOf([MethodGroupInfo class])]);
+		[verifyCount(mock, never()) pushRegistrationObject:instanceOf([MethodGroupInfo class])];
 	}];
 }
 
@@ -100,7 +100,7 @@
 		// execute
 		[info beginPropertyDefinition];
 		// verify
-		XCTAssertNoThrow([verify(mock) pushRegistrationObject:instanceOf([PropertyInfo class])]);
+		[verify(mock) pushRegistrationObject:instanceOf([PropertyInfo class])];
 	}];
 }
 
