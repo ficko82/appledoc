@@ -7,8 +7,6 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <OCMock/OCMock.h>
-
 
 #pragma mark - OCMockito
 
@@ -17,6 +15,9 @@
 
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
+
+#pragma mark - Cedar
+#import <Cedar/SpecHelper.h>
 
 #pragma mark - Appledoc
 

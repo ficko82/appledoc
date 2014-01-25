@@ -10,6 +10,7 @@
 		686F2E7C1876EA7D00D922E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 686F2E7A1876EA3C00D922E4 /* XCTest.framework */; };
 		686F2E7D1876ED0D00D922E4 /* AppledocTests-Info.plist in Copy resources to bundle */ = {isa = PBXBuildFile; fileRef = 7317FABB150F544400B39CFD /* AppledocTests-Info.plist */; };
 		686F2EC0187763B900D922E4 /* AppledocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 686F2EBF187763B900D922E4 /* AppledocTests.m */; };
+		68709A141879F60400C6FA1B /* StoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68709A131879F60400C6FA1B /* StoreTests.m */; };
 		68709A161879F80B00C6FA1B /* ObjectInfoBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68709A151879F80B00C6FA1B /* ObjectInfoBaseTests.m */; };
 		687BEDD81882904600847402 /* ConstantInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 687BEDD71882904600847402 /* ConstantInfoTests.m */; };
 		730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -86,7 +87,6 @@
 		7381A66F1536C05F00BF9BDD /* InterfaceInfoBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A66D1536C05F00BF9BDD /* InterfaceInfoBase.m */; };
 		7381A6731536C35100BF9BDD /* ClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A6721536C35000BF9BDD /* ClassInfo.m */; };
 		7381A6741536C35100BF9BDD /* ClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A6721536C35000BF9BDD /* ClassInfo.m */; };
-		7381A67C1536D04E00BF9BDD /* StoreTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7381A67B1536D04E00BF9BDD /* StoreTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7381A6801536D62400BF9BDD /* CategoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A67F1536D62400BF9BDD /* CategoryInfo.m */; };
 		7381A6811536D62400BF9BDD /* CategoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A67F1536D62400BF9BDD /* CategoryInfo.m */; };
 		7381A6881536E2F000BF9BDD /* ProtocolInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7381A6871536E2F000BF9BDD /* ProtocolInfo.m */; };
@@ -208,6 +208,7 @@
 		686F2E791876E9E900D922E4 /* TestCaseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCaseBase.h; sourceTree = "<group>"; };
 		686F2E7A1876EA3C00D922E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		686F2EBF187763B900D922E4 /* AppledocTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTests.m; sourceTree = "<group>"; };
+		68709A131879F60400C6FA1B /* StoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreTests.m; sourceTree = "<group>"; };
 		68709A151879F80B00C6FA1B /* ObjectInfoBaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInfoBaseTests.m; sourceTree = "<group>"; };
 		687BEDD71882904600847402 /* ConstantInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantInfoTests.m; sourceTree = "<group>"; };
 		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
@@ -293,7 +294,6 @@
 		7381A66D1536C05F00BF9BDD /* InterfaceInfoBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = InterfaceInfoBase.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7381A6711536C35000BF9BDD /* ClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ClassInfo.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		7381A6721536C35000BF9BDD /* ClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ClassInfo.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		7381A67B1536D04E00BF9BDD /* StoreTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = StoreTests.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		7381A67E1536D62400BF9BDD /* CategoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CategoryInfo.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		7381A67F1536D62400BF9BDD /* CategoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CategoryInfo.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7381A6861536E2F000BF9BDD /* ProtocolInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolInfo.h; sourceTree = "<group>"; };
@@ -560,7 +560,7 @@
 		7381A6791536CF2900BF9BDD /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				7381A67B1536D04E00BF9BDD /* StoreTests.mm */,
+				68709A131879F60400C6FA1B /* StoreTests.m */,
 				68709A151879F80B00C6FA1B /* ObjectInfoBaseTests.m */,
 				7349F657153ED21D004D7AC7 /* TypeInfoTests.mm */,
 				730BCC8E1540057000B909FD /* AttributesInfoTests.mm */,
@@ -937,14 +937,13 @@
 				7316B9D815359DEE000F12F3 /* ObjectInfoBase.m in Sources */,
 				7381A66F1536C05F00BF9BDD /* InterfaceInfoBase.m in Sources */,
 				7381A6741536C35100BF9BDD /* ClassInfo.m in Sources */,
-				7381A67C1536D04E00BF9BDD /* StoreTests.mm in Sources */,
 				7381A6811536D62400BF9BDD /* CategoryInfo.m in Sources */,
 				7381A6891536E2F000BF9BDD /* ProtocolInfo.m in Sources */,
 				735CD2C01538109900CADD4E /* ObjectLinkInfo.m in Sources */,
 				735CD2C31538126400CADD4E /* InterfaceInfoBaseTests.mm in Sources */,
 				735CD2C7153817E500CADD4E /* MethodGroupInfo.m in Sources */,
-				73F600EF1539E8BB00C4F668 /* ObjectInfoBaseTests.mm in Sources */,
 				730FB573153BFF2E002DB54F /* PropertyInfo.m in Sources */,
+				68709A141879F60400C6FA1B /* StoreTests.m in Sources */,
 				730FB578153C0889002DB54F /* MethodInfo.m in Sources */,
 				733E445D153D516E0039010F /* MethodInfoTests.mm in Sources */,
 				731341FF153D5891002D5C54 /* TypeInfo.m in Sources */,
