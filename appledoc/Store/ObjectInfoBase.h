@@ -25,7 +25,7 @@
 
 @property (nonatomic, strong) CommentInfo *comment;
 @property (nonatomic, strong) PKToken *sourceToken;
-@property (nonatomic, assign) id<StoreRegistrar> objectRegistrar;
+@property (nonatomic, strong) id<StoreRegistrar> objectRegistrar;
 
 @end
 
