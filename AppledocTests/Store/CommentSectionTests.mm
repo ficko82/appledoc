@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "Store.h"
 #import "TestCaseBase.hh"
 
@@ -29,3 +30,4 @@ describe(@"lazy accessors:", ^{
 });
 
 TEST_END
+*/

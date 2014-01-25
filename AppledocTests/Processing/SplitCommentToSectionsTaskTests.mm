@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "Store.h"
 #import "SplitCommentToSectionsTask.h"
 #import "TestCaseBase.hh"
@@ -477,3 +478,4 @@ describe(@"method return:", ^{
 });
 
 TEST_END
+*/

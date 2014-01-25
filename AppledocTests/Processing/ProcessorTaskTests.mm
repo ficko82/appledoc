@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "Store.h"
 #import "ProcessorTask.h"
 #import "TestCaseBase.hh"
@@ -21,3 +22,4 @@ static void runWithTask(void(^handler)(ProcessorTask *task)) {
 TEST_BEGIN(ProcessorTaskTests)
 
 TEST_END
+*/

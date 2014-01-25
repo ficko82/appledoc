@@ -6,12 +6,6 @@
 // project.
 
 
-// Cedar
-#define COCOAPODS_POD_AVAILABLE_Cedar
-#define COCOAPODS_VERSION_MAJOR_Cedar 0
-#define COCOAPODS_VERSION_MINOR_Cedar 9
-#define COCOAPODS_VERSION_PATCH_Cedar 4
-
 // OCHamcrest
 #define COCOAPODS_POD_AVAILABLE_OCHamcrest
 #define COCOAPODS_VERSION_MAJOR_OCHamcrest 3

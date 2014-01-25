@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "StoreMocks.h"
 #import "MergeKnownObjectsTask.h"
 #import "TestCaseBase.hh"
@@ -212,3 +213,4 @@ describe(@"method groups:", ^{
 });
 
 TEST_END
+*/

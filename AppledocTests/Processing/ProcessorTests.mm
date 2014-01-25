@@ -5,7 +5,7 @@
 //  Created by Tomaz Kragelj on 8/11/12.
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
-
+/*
 #import "Store.h"
 #import "Processor.h"
 #import "TestCaseBase.hh"
@@ -206,3 +206,4 @@ describe(@"comment processing:", ^{
 });
 
 TEST_END
+*/

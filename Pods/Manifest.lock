@@ -1,5 +1,4 @@
 PODS:
-  - Cedar (0.9.4)
   - GBCli (1.0)
   - OCHamcrest (3.0.1)
   - OCMock (2.2.2)
@@ -9,7 +8,6 @@ PODS:
   - sundown (0.1.0)
 
 DEPENDENCIES:
-  - Cedar (= 0.9.4)
   - GBCli (= 1.0)
   - OCMock (= 2.2.2)
   - OCMockito (= 1.0)
@@ -17,7 +15,6 @@ DEPENDENCIES:
   - sundown (= 0.1.0)
 
 SPEC CHECKSUMS:
-  Cedar: 56053d07b66394a84a576f6a4fa849ec13b5fc56
   GBCli: 6d3034d079e1597c7e523eb12c2a0d81e26c779e
   OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
   OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3

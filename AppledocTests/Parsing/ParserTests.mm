@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "GBSettings+Appledoc.h"
 #import "Extensions.h"
 #import "ObjectiveCParser.h"
@@ -69,3 +70,4 @@ describe(@"running:", ^{
 });
 
 TEST_END
+*/

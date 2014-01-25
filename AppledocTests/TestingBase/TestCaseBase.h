@@ -16,9 +16,6 @@
 #define MOCKITO_SHORTHAND
 #import <OCMockito/OCMockito.h>
 
-#pragma mark - Cedar
-#import <Cedar/SpecHelper.h>
-
 #pragma mark - Appledoc
 
 #import "Objects+TestingPrivateAPI.h"

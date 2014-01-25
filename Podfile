@@ -7,7 +7,6 @@ target :appledoc do
 end
 
 target :AppledocTests do
-	pod 'Cedar', '0.9.4'
 	pod 'OCMockito', '1.0'
 	pod 'OCMock', '2.2.2'
 end

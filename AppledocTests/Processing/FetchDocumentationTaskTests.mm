@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 Tomaz Kragelj. All rights reserved.
 //
 
+/*
 #import "StoreMocks.h"
 #import "FetchDocumentationTask.h"
 #import "TestCaseBase.hh"
@@ -265,3 +266,4 @@ describe(@"adopted protocols:", ^{
 });
 
 TEST_END
+*/
