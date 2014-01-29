@@ -2,7 +2,7 @@ PODS:
   - GBCli (1.0)
   - OCHamcrest (3.0.1)
   - OCMock (2.2.2)
-  - OCMockito (1.0.0):
+  - OCMockito (1.1.0):
     - OCHamcrest (~> 3.0)
   - ParseKit (0.7)
   - sundown (0.1.0)
@@ -10,7 +10,7 @@ PODS:
 DEPENDENCIES:
   - GBCli (= 1.0)
   - OCMock (= 2.2.2)
-  - OCMockito (= 1.0)
+  - OCMockito (= 1.1.0)
   - ParseKit (= 0.7)
   - sundown (= 0.1.0)
 
@@ -18,7 +18,7 @@ SPEC CHECKSUMS:
   GBCli: 6d3034d079e1597c7e523eb12c2a0d81e26c779e
   OCHamcrest: 782c52ae8c673e5d6060a65005cfd26d20d519ba
   OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3
-  OCMockito: 8b6a244d7d81ba3cd2095bc357c20ae7b22c8977
+  OCMockito: 317fa0cf75c9b0d73d2be335789c556537be7fd2
   ParseKit: 3e29375d37e10b468fa2298ad7304a10f553bcef
   sundown: f0b86bd08ee36f84e9e6a6332d3cbd0309889dfa
 

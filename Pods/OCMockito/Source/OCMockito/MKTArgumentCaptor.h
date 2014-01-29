@@ -1,5 +1,5 @@
 //
-//  OCMockito - MKTExactTimes.h
+//  OCMockito - MKTArgumentCaptor.h
 //  Copyright 2013 Jonathan M. Reid. See LICENSE.txt
 //
 //  Created by: Jon Reid, http://qualitycoding.org/
@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MKTVerificationMode.h"
 
 
-@interface MKTExactTimes : NSObject <MKTVerificationMode>
+@interface MKTArgumentCaptor : NSObject
 
-- (instancetype)initWithCount:(NSUInteger)expectedNumberOfInvocations;
+- (id)capture;
+- (id)value;
+- (NSArray *)allValues;
 
 @end
