@@ -19,7 +19,7 @@
 
 - (ObjectLinkInfo *)categoryClass {
 	if (_categoryClass) return _categoryClass;
-	LogDebug(@"Initializing %@ class link due to first access...");
+	LogDebug(@"Initializing %@ class link due to first access...", _categoryClass);
 	_categoryClass = [[ObjectLinkInfo alloc] init];
 	return _categoryClass;
 }

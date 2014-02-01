@@ -37,7 +37,7 @@
 #pragma mark - Processor helpers
 
 - (NSInteger)processInterfaces:(NSArray *)interfaces {
-	LogDebug(@"Processing %@...", interfaces.count);
+	LogDebug(@"Processing %lu...", (unsigned long)interfaces.count);
 	__weak Processor *bself = self;
 	__block NSInteger result = GBResultOk;
 	[interfaces enumerateObjectsUsingBlock:^(InterfaceInfoBase *info, NSUInteger idx, BOOL *stop) {

@@ -99,7 +99,7 @@
 #pragma mark - Customized modifiers
 
 - (void)setCurrentSourceInfo:(PKToken *)value {
-	LogDebug(@"Changing current source info to line %lu...", value.location.y);
+	LogDebug(@"Changing current source info to line %f...", value.location.y);
 	_currentSourceInfo = value;
 	if ([self doesCurrentRegistrationObjectRespondTo:@selector(setCurrentSourceInfo:)]) {
 		LogDebug(@"Passing source info to current registration object...");
