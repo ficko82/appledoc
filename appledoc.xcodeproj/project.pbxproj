@@ -177,7 +177,7 @@
 		73E416E71541E12200600606 /* StructInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73E416E61541E12200600606 /* StructInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73ED9446150E9FEC0032FD07 /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED9445150E9FEC0032FD07 /* Logging.m */; };
 		73F59073154148CD0078DA60 /* MethodStateMultipleDefinitions.h in Copy resources to bundle */ = {isa = PBXBuildFile; fileRef = 73F59072154148C10078DA60 /* MethodStateMultipleDefinitions.h */; };
-		73F5C87115480DFF005BE2D6 /* CategoryInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73F5C87015480DFF005BE2D6 /* CategoryInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73F5C87115480DFF005BE2D6 /* CategoryInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F5C87015480DFF005BE2D6 /* CategoryInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73F989AD1518A9BC0068697C /* ObjectiveCInterfaceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989AC1518A9BC0068697C /* ObjectiveCInterfaceState.m */; };
 		73F989AE1518A9BC0068697C /* ObjectiveCInterfaceState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989AC1518A9BC0068697C /* ObjectiveCInterfaceState.m */; };
 		73F989B81518C63E0068697C /* ObjectiveCPropertyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989B71518C63D0068697C /* ObjectiveCPropertyState.m */; };
@@ -404,7 +404,7 @@
 		73ED9445150E9FEC0032FD07 /* Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logging.m; sourceTree = "<group>"; };
 		73ED944C150F3CF40032FD07 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objects.h; sourceTree = "<group>"; };
 		73F59072154148C10078DA60 /* MethodStateMultipleDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodStateMultipleDefinitions.h; sourceTree = "<group>"; };
-		73F5C87015480DFF005BE2D6 /* CategoryInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = CategoryInfoTests.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		73F5C87015480DFF005BE2D6 /* CategoryInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CategoryInfoTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		73F989AB1518A9BC0068697C /* ObjectiveCInterfaceState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCInterfaceState.h; sourceTree = "<group>"; };
 		73F989AC1518A9BC0068697C /* ObjectiveCInterfaceState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCInterfaceState.m; sourceTree = "<group>"; };
 		73F989B61518C63D0068697C /* ObjectiveCPropertyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCPropertyState.h; sourceTree = "<group>"; };
@@ -589,7 +589,7 @@
 				688BF9221893C02F0082E853 /* AttributesInfoTests.m */,
 				688BF9241893C02F0082E853 /* DescriptorsInfoTests.m */,
 				688BF9251893C02F0082E853 /* InterfaceInfoBaseTests.m */,
-				73F5C87015480DFF005BE2D6 /* CategoryInfoTests.mm */,
+				73F5C87015480DFF005BE2D6 /* CategoryInfoTests.m */,
 				73D72A071675F1FD007912F1 /* ClassInfoTests.mm */,
 				73E416DB1541A14700600606 /* EnumInfoTests.mm */,
 				73E416E61541E12200600606 /* StructInfoTests.mm */,
@@ -1018,7 +1018,7 @@
 				73E416E71541E12200600606 /* StructInfoTests.mm in Sources */,
 				7336652615457A2E000F7AFF /* ConstantInfo.m in Sources */,
 				73B502381893BA3B00EC60E3 /* DDCliUtil.m in Sources */,
-				73F5C87115480DFF005BE2D6 /* CategoryInfoTests.mm in Sources */,
+				73F5C87115480DFF005BE2D6 /* CategoryInfoTests.m in Sources */,
 				73A589FE15493F5B003838E0 /* DescriptorsInfo.m in Sources */,
 				688BF92C1893C02F0082E853 /* InterfaceInfoBaseTests.m in Sources */,
 				7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.mm in Sources */,
