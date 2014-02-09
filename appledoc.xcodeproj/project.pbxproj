@@ -169,7 +169,7 @@
 		73E289F41518E24D00D53484 /* ObjectiveCPragmaMarkState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989BF1518C6AE0068697C /* ObjectiveCPragmaMarkState.m */; };
 		73E289F51518E24D00D53484 /* ObjectiveCEnumState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989C31518C6C10068697C /* ObjectiveCEnumState.m */; };
 		73E289F61518E24D00D53484 /* ObjectiveCStructState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989C71518C6D40068697C /* ObjectiveCStructState.m */; };
-		73E416DC1541A14700600606 /* EnumInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73E416DB1541A14700600606 /* EnumInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73E416DC1541A14700600606 /* EnumInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E416DB1541A14700600606 /* EnumInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73E416E01541A8B100600606 /* EnumItemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E416DF1541A8B100600606 /* EnumItemInfo.m */; };
 		73E416E11541A8B100600606 /* EnumItemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E416DF1541A8B100600606 /* EnumItemInfo.m */; };
 		73E416E41541BAE000600606 /* StructInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E416E31541BAE000600606 /* StructInfo.m */; };
@@ -394,7 +394,7 @@
 		73DC6D2D164800B800C1AA0D /* CommentSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSectionInfo.h; sourceTree = "<group>"; };
 		73DC6D2E164800B800C1AA0D /* CommentSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSectionInfo.m; sourceTree = "<group>"; };
 		73DF1FB816760BD300CFDF89 /* FetchDocumentationTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FetchDocumentationTaskTests.mm; sourceTree = "<group>"; };
-		73E416DB1541A14700600606 /* EnumInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EnumInfoTests.mm; sourceTree = "<group>"; };
+		73E416DB1541A14700600606 /* EnumInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumInfoTests.m; sourceTree = "<group>"; };
 		73E416DE1541A8B100600606 /* EnumItemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumItemInfo.h; sourceTree = "<group>"; };
 		73E416DF1541A8B100600606 /* EnumItemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumItemInfo.m; sourceTree = "<group>"; };
 		73E416E21541BAE000600606 /* StructInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructInfo.h; sourceTree = "<group>"; };
@@ -591,7 +591,7 @@
 				688BF9251893C02F0082E853 /* InterfaceInfoBaseTests.m */,
 				73F5C87015480DFF005BE2D6 /* CategoryInfoTests.m */,
 				73D72A071675F1FD007912F1 /* ClassInfoTests.m */,
-				73E416DB1541A14700600606 /* EnumInfoTests.mm */,
+				73E416DB1541A14700600606 /* EnumInfoTests.m */,
 				73E416E61541E12200600606 /* StructInfoTests.mm */,
 				733E445C153D516E0039010F /* MethodInfoTests.mm */,
 				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */,
@@ -1012,7 +1012,7 @@
 				730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */,
 				730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */,
 				731103BE15418B4B005F46E5 /* EnumInfo.m in Sources */,
-				73E416DC1541A14700600606 /* EnumInfoTests.mm in Sources */,
+				73E416DC1541A14700600606 /* EnumInfoTests.m in Sources */,
 				73E416E11541A8B100600606 /* EnumItemInfo.m in Sources */,
 				73E416E51541BAE000600606 /* StructInfo.m in Sources */,
 				73E416E71541E12200600606 /* StructInfoTests.mm in Sources */,
