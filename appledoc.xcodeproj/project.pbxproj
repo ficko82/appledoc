@@ -69,7 +69,7 @@
 		733A93121671ED9800734F0A /* LinkKnownObjectsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */; };
 		733A93131671ED9800734F0A /* LinkKnownObjectsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */; };
 		733A93161671EF0600734F0A /* LinkKnownObjectsTaskTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		733E445D153D516E0039010F /* MethodInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 733E445C153D516E0039010F /* MethodInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		733E445D153D516E0039010F /* MethodInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E445C153D516E0039010F /* MethodInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		734425131517631F00B6EC33 /* ParserTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 734425121517631F00B6EC33 /* ParserTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		734425161517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
 		734425171517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
@@ -293,7 +293,7 @@
 		733A93101671ED9800734F0A /* LinkKnownObjectsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkKnownObjectsTask.h; sourceTree = "<group>"; };
 		733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LinkKnownObjectsTask.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = LinkKnownObjectsTaskTests.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		733E445C153D516E0039010F /* MethodInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MethodInfoTests.mm; sourceTree = "<group>"; };
+		733E445C153D516E0039010F /* MethodInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodInfoTests.m; sourceTree = "<group>"; };
 		734425121517631F00B6EC33 /* ParserTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParserTests.mm; sourceTree = "<group>"; };
 		734425141517645A00B6EC33 /* AppledocTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppledocTask.h; sourceTree = "<group>"; };
 		734425151517645A00B6EC33 /* AppledocTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTask.m; sourceTree = "<group>"; };
@@ -598,7 +598,7 @@
 				73D72A071675F1FD007912F1 /* ClassInfoTests.m */,
 				73E416DB1541A14700600606 /* EnumInfoTests.m */,
 				73E416E61541E12200600606 /* StructInfoTests.m */,
-				733E445C153D516E0039010F /* MethodInfoTests.mm */,
+				733E445C153D516E0039010F /* MethodInfoTests.m */,
 				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */,
 				730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */,
 				688BF9231893C02F0082E853 /* ConstantInfoTests.m */,
@@ -1009,7 +1009,7 @@
 				688BF9291893C02F0082E853 /* AttributesInfoTests.m in Sources */,
 				730FB573153BFF2E002DB54F /* PropertyInfo.m in Sources */,
 				730FB578153C0889002DB54F /* MethodInfo.m in Sources */,
-				733E445D153D516E0039010F /* MethodInfoTests.mm in Sources */,
+				733E445D153D516E0039010F /* MethodInfoTests.m in Sources */,
 				731341FF153D5891002D5C54 /* TypeInfo.m in Sources */,
 				688BF92E1893C02F0082E853 /* StoreTests.m in Sources */,
 				7349F65D153EDA5C004D7AC7 /* MethodArgumentInfo.m in Sources */,
