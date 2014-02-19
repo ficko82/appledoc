@@ -17,6 +17,7 @@
 		688BF92F1893C02F0082E853 /* TypeInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BF9281893C02F0082E853 /* TypeInfoTests.m */; };
 		688BF9311893C0670082E853 /* AppledocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BF9301893C0670082E853 /* AppledocTests.m */; };
 		688BF9341893C1C80082E853 /* SettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BF9331893C1C80082E853 /* SettingsTests.m */; };
+		68BDD8A318B51554007A2652 /* TestCreators.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BDD8A218B51554007A2652 /* TestCreators.m */; };
 		68F12A111893C53F00533F46 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 73118B11151906F100E9D7F1 /* Constants.m */; };
 		68F12A121893C53F00533F46 /* GBSettings+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 738BE17315172D8D009079C8 /* GBSettings+Helpers.m */; };
 		68F12A131893C58600533F46 /* libPods-appledoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4DD89AA7514FB38CA49F2E /* libPods-appledoc.a */; };
@@ -237,6 +238,8 @@
 		688BF9301893C0670082E853 /* AppledocTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTests.m; sourceTree = "<group>"; };
 		688BF9321893C0DA0082E853 /* TestCaseBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCaseBase.h; sourceTree = "<group>"; };
 		688BF9331893C1C80082E853 /* SettingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTests.m; sourceTree = "<group>"; };
+		68BDD8A118B51554007A2652 /* TestCreators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCreators.h; sourceTree = "<group>"; };
+		68BDD8A218B51554007A2652 /* TestCreators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCreators.m; sourceTree = "<group>"; };
 		68F12A141893C5C000533F46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
 		730BCC8A1540046F00B909FD /* AttributesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesInfo.h; sourceTree = "<group>"; };
@@ -475,6 +478,8 @@
 				737C82A2152307AE0064DC46 /* TestStrings.m */,
 				733256EF1677269800CA90E1 /* StoreMocks.h */,
 				733256F01677269800CA90E1 /* StoreMocks.m */,
+				68BDD8A118B51554007A2652 /* TestCreators.h */,
+				68BDD8A218B51554007A2652 /* TestCreators.m */,
 				731F83DA15109D5F00112FD1 /* Objects+TestingPrivateAPI.h */,
 			);
 			name = "Testing Base";
@@ -1009,6 +1014,7 @@
 				688BF92E1893C02F0082E853 /* StoreTests.m in Sources */,
 				7349F65D153EDA5C004D7AC7 /* MethodArgumentInfo.m in Sources */,
 				73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.mm in Sources */,
+				68BDD8A318B51554007A2652 /* TestCreators.m in Sources */,
 				730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */,
 				730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */,
 				731103BE15418B4B005F46E5 /* EnumInfo.m in Sources */,
