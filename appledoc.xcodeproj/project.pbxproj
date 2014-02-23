@@ -161,7 +161,7 @@
 		73D76C6916613B5D00B611AB /* DetectCrossReferencesTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D76C6816613B5D00B611AB /* DetectCrossReferencesTask.m */; };
 		73D76C6A16613B5D00B611AB /* DetectCrossReferencesTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D76C6816613B5D00B611AB /* DetectCrossReferencesTask.m */; };
 		73D76C6D16613C4700B611AB /* DetectCrossReferencesTaskTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73D76C6C16613C4600B611AB /* DetectCrossReferencesTaskTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73DC6D2F164800B900C1AA0D /* CommentSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC6D2E164800B800C1AA0D /* CommentSectionInfo.m */; };
 		73DC6D30164800B900C1AA0D /* CommentSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC6D2E164800B800C1AA0D /* CommentSectionInfo.m */; };
 		73DF1FB916760BD300CFDF89 /* FetchDocumentationTaskTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73DF1FB816760BD300CFDF89 /* FetchDocumentationTaskTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -393,7 +393,7 @@
 		73D76C6716613B5D00B611AB /* DetectCrossReferencesTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectCrossReferencesTask.h; sourceTree = "<group>"; };
 		73D76C6816613B5D00B611AB /* DetectCrossReferencesTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectCrossReferencesTask.m; sourceTree = "<group>"; };
 		73D76C6C16613C4600B611AB /* DetectCrossReferencesTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DetectCrossReferencesTaskTests.mm; sourceTree = "<group>"; };
-		73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MethodArgumentInfoTests.mm; sourceTree = "<group>"; };
+		73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodArgumentInfoTests.m; sourceTree = "<group>"; };
 		73DC6D2D164800B800C1AA0D /* CommentSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentSectionInfo.h; sourceTree = "<group>"; };
 		73DC6D2E164800B800C1AA0D /* CommentSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentSectionInfo.m; sourceTree = "<group>"; };
 		73DF1FB816760BD300CFDF89 /* FetchDocumentationTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FetchDocumentationTaskTests.mm; sourceTree = "<group>"; };
@@ -599,7 +599,7 @@
 				73E416DB1541A14700600606 /* EnumInfoTests.m */,
 				73E416E61541E12200600606 /* StructInfoTests.m */,
 				733E445C153D516E0039010F /* MethodInfoTests.m */,
-				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.mm */,
+				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.m */,
 				730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */,
 				688BF9231893C02F0082E853 /* ConstantInfoTests.m */,
 				73A0267E15D6D4870077D204 /* CommentInfoTests.mm */,
@@ -1013,7 +1013,7 @@
 				731341FF153D5891002D5C54 /* TypeInfo.m in Sources */,
 				688BF92E1893C02F0082E853 /* StoreTests.m in Sources */,
 				7349F65D153EDA5C004D7AC7 /* MethodArgumentInfo.m in Sources */,
-				73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.mm in Sources */,
+				73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.m in Sources */,
 				68BDD8A318B51554007A2652 /* TestCreators.m in Sources */,
 				730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */,
 				730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */,
