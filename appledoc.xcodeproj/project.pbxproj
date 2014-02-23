@@ -22,7 +22,7 @@
 		68F12A121893C53F00533F46 /* GBSettings+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 738BE17315172D8D009079C8 /* GBSettings+Helpers.m */; };
 		68F12A131893C58600533F46 /* libPods-appledoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4DD89AA7514FB38CA49F2E /* libPods-appledoc.a */; };
 		68F12A151893C5C000533F46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F12A141893C5C000533F46 /* XCTest.framework */; };
-		730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		730BCC88153FF91C00B909FD /* PropertyInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC87153FF91C00B909FD /* PropertyInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		730BCC8C1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
 		730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730BCC8B1540046F00B909FD /* AttributesInfo.m */; };
 		730FB572153BFF2E002DB54F /* PropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 730FB571153BFF2E002DB54F /* PropertyInfo.m */; };
@@ -241,7 +241,7 @@
 		68BDD8A118B51554007A2652 /* TestCreators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCreators.h; sourceTree = "<group>"; };
 		68BDD8A218B51554007A2652 /* TestCreators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCreators.m; sourceTree = "<group>"; };
 		68F12A141893C5C000533F46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PropertyInfoTests.mm; sourceTree = "<group>"; };
+		730BCC87153FF91C00B909FD /* PropertyInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyInfoTests.m; sourceTree = "<group>"; };
 		730BCC8A1540046F00B909FD /* AttributesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesInfo.h; sourceTree = "<group>"; };
 		730BCC8B1540046F00B909FD /* AttributesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesInfo.m; sourceTree = "<group>"; };
 		730FB570153BFF2E002DB54F /* PropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyInfo.h; sourceTree = "<group>"; };
@@ -600,7 +600,7 @@
 				73E416E61541E12200600606 /* StructInfoTests.m */,
 				733E445C153D516E0039010F /* MethodInfoTests.m */,
 				73D8651A153FEBD900BDAAFE /* MethodArgumentInfoTests.m */,
-				730BCC87153FF91C00B909FD /* PropertyInfoTests.mm */,
+				730BCC87153FF91C00B909FD /* PropertyInfoTests.m */,
 				688BF9231893C02F0082E853 /* ConstantInfoTests.m */,
 				73A0267E15D6D4870077D204 /* CommentInfoTests.mm */,
 				73558FC71642F6F900E17831 /* CommentSectionTests.mm */,
@@ -1015,7 +1015,7 @@
 				7349F65D153EDA5C004D7AC7 /* MethodArgumentInfo.m in Sources */,
 				73D8651B153FEBD900BDAAFE /* MethodArgumentInfoTests.m in Sources */,
 				68BDD8A318B51554007A2652 /* TestCreators.m in Sources */,
-				730BCC88153FF91C00B909FD /* PropertyInfoTests.mm in Sources */,
+				730BCC88153FF91C00B909FD /* PropertyInfoTests.m in Sources */,
 				730BCC8D1540046F00B909FD /* AttributesInfo.m in Sources */,
 				731103BE15418B4B005F46E5 /* EnumInfo.m in Sources */,
 				73E416DC1541A14700600606 /* EnumInfoTests.m in Sources */,
