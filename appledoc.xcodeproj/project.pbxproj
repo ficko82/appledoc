@@ -70,7 +70,7 @@
 		733A93131671ED9800734F0A /* LinkKnownObjectsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */; };
 		733A93161671EF0600734F0A /* LinkKnownObjectsTaskTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		733E445D153D516E0039010F /* MethodInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 733E445C153D516E0039010F /* MethodInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		734425131517631F00B6EC33 /* ParserTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 734425121517631F00B6EC33 /* ParserTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		734425131517631F00B6EC33 /* ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425121517631F00B6EC33 /* ParserTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		734425161517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
 		734425171517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
 		7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -294,7 +294,7 @@
 		733A93111671ED9800734F0A /* LinkKnownObjectsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LinkKnownObjectsTask.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		733A93151671EF0600734F0A /* LinkKnownObjectsTaskTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = LinkKnownObjectsTaskTests.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		733E445C153D516E0039010F /* MethodInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodInfoTests.m; sourceTree = "<group>"; };
-		734425121517631F00B6EC33 /* ParserTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ParserTests.mm; sourceTree = "<group>"; };
+		734425121517631F00B6EC33 /* ParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserTests.m; sourceTree = "<group>"; };
 		734425141517645A00B6EC33 /* AppledocTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppledocTask.h; sourceTree = "<group>"; };
 		734425151517645A00B6EC33 /* AppledocTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTask.m; sourceTree = "<group>"; };
 		7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCStructStateTests.mm; sourceTree = "<group>"; };
@@ -567,7 +567,7 @@
 			isa = PBXGroup;
 			children = (
 				73F59070154148850078DA60 /* Data */,
-				734425121517631F00B6EC33 /* ParserTests.mm */,
+				734425121517631F00B6EC33 /* ParserTests.m */,
 				73B6595D1588B7A900AE2314 /* CommentParserTests.mm */,
 				73AD21161553DE0300C3B792 /* ObjectiveCParseDataTests.mm */,
 				73F989CB1518C9000068697C /* ObjectiveCParserTests.mm */,
@@ -975,7 +975,7 @@
 				73280F29150FE48700D1E6E8 /* GBSettings+Appledoc.m in Sources */,
 				73500D3115174910000416E3 /* Store.m in Sources */,
 				73500D351517581A000416E3 /* Parser.m in Sources */,
-				734425131517631F00B6EC33 /* ParserTests.mm in Sources */,
+				734425131517631F00B6EC33 /* ParserTests.m in Sources */,
 				734425171517645A00B6EC33 /* AppledocTask.m in Sources */,
 				732978F515187F3E00592A9D /* ParserTask.m in Sources */,
 				7329790315188A4C00592A9D /* ObjectiveCParser.m in Sources */,
