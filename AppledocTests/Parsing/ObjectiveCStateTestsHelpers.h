@@ -14,3 +14,9 @@ typedef void(^GBStateMockBlock)(id parser, id tokens);
 
 extern void runWithString(NSString *string, GBStateMockBlock handler);
 extern void runWithFile(NSString *file, GBStateMockBlock handler);
+
+@interface ObjectiveCStateTestsHelpers : NSObject
+
++ (void)runWithString:(NSString *)string block:(GBStateMockBlock)handler;
+
+@end
