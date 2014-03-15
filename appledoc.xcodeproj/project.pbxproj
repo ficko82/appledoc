@@ -186,7 +186,7 @@
 		73F989C01518C6AE0068697C /* ObjectiveCPragmaMarkState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989BF1518C6AE0068697C /* ObjectiveCPragmaMarkState.m */; };
 		73F989C41518C6C10068697C /* ObjectiveCEnumState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989C31518C6C10068697C /* ObjectiveCEnumState.m */; };
 		73F989C81518C6D50068697C /* ObjectiveCStructState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989C71518C6D40068697C /* ObjectiveCStructState.m */; };
-		73F989CC1518C9000068697C /* ObjectiveCParserTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73F989CB1518C9000068697C /* ObjectiveCParserTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73F989CC1518C9000068697C /* ObjectiveCParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F989CB1518C9000068697C /* ObjectiveCParserTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -420,7 +420,7 @@
 		73F989C31518C6C10068697C /* ObjectiveCEnumState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCEnumState.m; sourceTree = "<group>"; };
 		73F989C61518C6D40068697C /* ObjectiveCStructState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCStructState.h; sourceTree = "<group>"; };
 		73F989C71518C6D40068697C /* ObjectiveCStructState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCStructState.m; sourceTree = "<group>"; };
-		73F989CB1518C9000068697C /* ObjectiveCParserTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCParserTests.mm; sourceTree = "<group>"; };
+		73F989CB1518C9000068697C /* ObjectiveCParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCParserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -570,7 +570,7 @@
 				734425121517631F00B6EC33 /* ParserTests.m */,
 				73B6595D1588B7A900AE2314 /* CommentParserTests.m */,
 				73AD21161553DE0300C3B792 /* ObjectiveCParseDataTests.m */,
-				73F989CB1518C9000068697C /* ObjectiveCParserTests.mm */,
+				73F989CB1518C9000068697C /* ObjectiveCParserTests.m */,
 				7316285B15208124002B5FA9 /* ObjectiveCFileStateTests.mm */,
 				7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */,
 				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.mm */,
@@ -983,7 +983,7 @@
 				73297915151899CA00592A9D /* ObjectiveCParserState.m in Sources */,
 				7329791915189D1B00592A9D /* ObjectiveCFileState.m in Sources */,
 				73F989AE1518A9BC0068697C /* ObjectiveCInterfaceState.m in Sources */,
-				73F989CC1518C9000068697C /* ObjectiveCParserTests.mm in Sources */,
+				73F989CC1518C9000068697C /* ObjectiveCParserTests.m in Sources */,
 				73E289F21518E24D00D53484 /* ObjectiveCPropertyState.m in Sources */,
 				73E289F31518E24D00D53484 /* ObjectiveCMethodState.m in Sources */,
 				73E289F41518E24D00D53484 /* ObjectiveCPragmaMarkState.m in Sources */,
