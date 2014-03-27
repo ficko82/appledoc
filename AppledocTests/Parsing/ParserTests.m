@@ -37,8 +37,8 @@
 		// execute
 		[parser runWithSettings:settings store:nil];
 		// verify
-		XCTAssertNoThrow([verify(settings) arguments]);
-	    XCTAssertNoThrow([verify(arguments) enumerateObjectsUsingBlock:anything()]);
+		[verify(settings) arguments];
+	    [verify(arguments) enumerateObjectsUsingBlock:anything()];
 	}];
 }
 

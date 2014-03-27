@@ -103,7 +103,7 @@
 		// execute
 		[info beginPropertyDescriptors];
 		// verify
-		XCTAssertNoThrow([verify(mock) pushRegistrationObject:info.propertyDescriptors]);
+		[verify(mock) pushRegistrationObject:info.propertyDescriptors];
 	}];
 }
 
@@ -117,7 +117,7 @@
 		 // execute
 		 [info beginPropertyAttributes];
 		 // verify
-		 XCTAssertNoThrow([verify(mock) pushRegistrationObject:info.propertyAttributes]);
+		 [verify(mock) pushRegistrationObject:info.propertyAttributes];
 	 }];
 }
 	 
@@ -131,7 +131,7 @@
 		// execute
 		[info beginPropertyTypes];
 		// verify
-		XCTAssertNoThrow([verify(mock) pushRegistrationObject:info.propertyType]);
+		[verify(mock) pushRegistrationObject:info.propertyType];
 	 }];
 }
 

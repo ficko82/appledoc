@@ -33,7 +33,7 @@
 		// execute
 		[info beginMethodArgumentTypes];
 		// verify
-		XCTAssertNoThrow([verify(mock) pushRegistrationObject:info.argumentType]);
+		[verify(mock) pushRegistrationObject:info.argumentType];
 	}];
 }
 
