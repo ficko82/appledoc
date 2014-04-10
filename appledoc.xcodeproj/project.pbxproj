@@ -42,7 +42,7 @@
 		7317FAB8150F534100B39CFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7317FAB7150F534100B39CFD /* Cocoa.framework */; };
 		7317FAC4150F56A500B39CFD /* Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ED9445150E9FEC0032FD07 /* Logging.m */; };
 		7317FAC5150F56A800B39CFD /* Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D274DD150E0D60004D27F4 /* Appledoc.m */; };
-		7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73239A11155706380077AB8A /* StateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 73239A10155706380077AB8A /* StateBase.m */; };
 		73239A12155706380077AB8A /* StateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 73239A10155706380077AB8A /* StateBase.m */; };
 		73239A1A1557BEA00077AB8A /* ObjectiveCConstantState.m in Sources */ = {isa = PBXBuildFile; fileRef = 73239A191557BE9F0077AB8A /* ObjectiveCConstantState.m */; };
@@ -265,7 +265,7 @@
 		7317FABB150F544400B39CFD /* AppledocTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppledocTests-Info.plist"; sourceTree = "<group>"; };
 		7317FABC150F544400B39CFD /* AppledocTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppledocTests-Prefix.pch"; sourceTree = "<group>"; };
 		731F83DA15109D5F00112FD1 /* Objects+TestingPrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Objects+TestingPrivateAPI.h"; sourceTree = "<group>"; };
-		7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCInterfaceStateTests.mm; sourceTree = "<group>"; };
+		7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCInterfaceStateTests.m; sourceTree = "<group>"; };
 		73239A0F155706380077AB8A /* StateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateBase.h; sourceTree = "<group>"; };
 		73239A10155706380077AB8A /* StateBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateBase.m; sourceTree = "<group>"; };
 		73239A181557BE9F0077AB8A /* ObjectiveCConstantState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCConstantState.h; sourceTree = "<group>"; };
@@ -572,7 +572,7 @@
 				73AD21161553DE0300C3B792 /* ObjectiveCParseDataTests.m */,
 				73F989CB1518C9000068697C /* ObjectiveCParserTests.m */,
 				7316285B15208124002B5FA9 /* ObjectiveCFileStateTests.m */,
-				7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.mm */,
+				7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.m */,
 				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.mm */,
 				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.mm */,
 				73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm */,
@@ -992,7 +992,7 @@
 				73E289F61518E24D00D53484 /* ObjectiveCStructState.m in Sources */,
 				7316285C15208124002B5FA9 /* ObjectiveCFileStateTests.m in Sources */,
 				737C82A3152307AE0064DC46 /* TestStrings.m in Sources */,
-				7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.mm in Sources */,
+				7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.m in Sources */,
 				738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.mm in Sources */,
 				73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.mm in Sources */,
 				73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */,
