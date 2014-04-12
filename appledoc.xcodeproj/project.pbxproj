@@ -112,7 +112,7 @@
 		738F2CA6164301E500BEC518 /* PKToken+Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F2CA4164301E500BEC518 /* PKToken+Appledoc.m */; };
 		738F2CAD1643035C00BEC518 /* NSRegularExpression+Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F2CAC1643035C00BEC518 /* NSRegularExpression+Appledoc.m */; };
 		738F2CAE1643035C00BEC518 /* NSRegularExpression+Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F2CAC1643035C00BEC518 /* NSRegularExpression+Appledoc.m */; };
-		738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		739B4213158D134D0044B904 /* CommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B4212158D134D0044B904 /* CommentInfo.m */; };
 		739B4214158D134D0044B904 /* CommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B4212158D134D0044B904 /* CommentInfo.m */; };
 		73A0267C15D6D36A0077D204 /* CommentComponentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A0267B15D6D36A0077D204 /* CommentComponentInfo.m */; };
@@ -340,7 +340,7 @@
 		738F2CA71643026D00BEC518 /* Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		738F2CAB1643035C00BEC518 /* NSRegularExpression+Appledoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+Appledoc.h"; sourceTree = "<group>"; };
 		738F2CAC1643035C00BEC518 /* NSRegularExpression+Appledoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+Appledoc.m"; sourceTree = "<group>"; };
-		738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCPropertyStateTests.mm; sourceTree = "<group>"; };
+		738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCPropertyStateTests.m; sourceTree = "<group>"; };
 		7397046A1511283300486507 /* AppledocInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppledocInfo.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		739B4211158D134D0044B904 /* CommentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommentInfo.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		739B4212158D134D0044B904 /* CommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentInfo.m; sourceTree = "<group>"; };
@@ -573,7 +573,7 @@
 				73F989CB1518C9000068697C /* ObjectiveCParserTests.m */,
 				7316285B15208124002B5FA9 /* ObjectiveCFileStateTests.m */,
 				7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.m */,
-				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.mm */,
+				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.m */,
 				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.mm */,
 				73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm */,
 				73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.mm */,
@@ -993,7 +993,7 @@
 				7316285C15208124002B5FA9 /* ObjectiveCFileStateTests.m in Sources */,
 				737C82A3152307AE0064DC46 /* TestStrings.m in Sources */,
 				7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.m in Sources */,
-				738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.mm in Sources */,
+				738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.m in Sources */,
 				73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.mm in Sources */,
 				73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */,
 				73D5402A1525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm in Sources */,

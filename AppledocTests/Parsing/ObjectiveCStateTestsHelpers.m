@@ -32,4 +32,9 @@ void runWithFile(NSString *file, GBStateMockBlock handler) {
 	handler(parser, tokens);
 }
 
++ (void)runWithFile:(NSString *)file block:(GBStateMockBlock)handler {
+	NSString *string = [TestStrings stringFromResourceFile:file];
+	runWithString(string, handler);
+}
+
 @end

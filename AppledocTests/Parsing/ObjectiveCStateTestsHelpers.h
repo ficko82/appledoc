@@ -18,5 +18,6 @@ extern void runWithFile(NSString *file, GBStateMockBlock handler);
 @interface ObjectiveCStateTestsHelpers : NSObject
 
 + (void)runWithString:(NSString *)string block:(GBStateMockBlock)handler;
++ (void)runWithFile:(NSString *)file block:(GBStateMockBlock)handler;
 
 @end
