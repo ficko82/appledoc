@@ -149,7 +149,7 @@
 		73D274B2150E05DA004D27F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D274B1150E05DA004D27F4 /* Foundation.framework */; };
 		73D274B5150E05DA004D27F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D274B4150E05DA004D27F4 /* main.m */; };
 		73D274DE150E0D60004D27F4 /* Appledoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D274DD150E0D60004D27F4 /* Appledoc.m */; };
-		73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73D540271525A8BA00C57E1B /* StoreConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540261525A8BA00C57E1B /* StoreConstants.m */; };
 		73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540261525A8BA00C57E1B /* StoreConstants.m */; };
 		73D5402A1525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -381,7 +381,7 @@
 		73D274B7150E05DA004D27F4 /* appledoc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appledoc-Prefix.pch"; sourceTree = "<group>"; };
 		73D274DC150E0D60004D27F4 /* Appledoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appledoc.h; sourceTree = "<group>"; };
 		73D274DD150E0D60004D27F4 /* Appledoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appledoc.m; sourceTree = "<group>"; };
-		73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCMethodStateTests.mm; sourceTree = "<group>"; };
+		73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCMethodStateTests.m; sourceTree = "<group>"; };
 		73D540251525A8BA00C57E1B /* StoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreConstants.h; sourceTree = "<group>"; };
 		73D540261525A8BA00C57E1B /* StoreConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreConstants.m; sourceTree = "<group>"; };
 		73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCPragmaMarkStateTests.mm; sourceTree = "<group>"; };
@@ -574,7 +574,7 @@
 				7316285B15208124002B5FA9 /* ObjectiveCFileStateTests.m */,
 				7320AB6015232471006BAB51 /* ObjectiveCInterfaceStateTests.m */,
 				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.m */,
-				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.mm */,
+				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.m */,
 				73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm */,
 				73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.mm */,
 				7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */,
@@ -994,7 +994,7 @@
 				737C82A3152307AE0064DC46 /* TestStrings.m in Sources */,
 				7320AB6115232471006BAB51 /* ObjectiveCInterfaceStateTests.m in Sources */,
 				738F419015232E6B008CB370 /* ObjectiveCPropertyStateTests.m in Sources */,
-				73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.mm in Sources */,
+				73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.m in Sources */,
 				73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */,
 				73D5402A1525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.mm in Sources */,
 				73D5402C1525D59600C57E1B /* ObjectiveCEnumStateTests.mm in Sources */,
