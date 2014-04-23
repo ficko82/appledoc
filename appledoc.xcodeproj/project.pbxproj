@@ -153,7 +153,7 @@
 		73D540271525A8BA00C57E1B /* StoreConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540261525A8BA00C57E1B /* StoreConstants.m */; };
 		73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540261525A8BA00C57E1B /* StoreConstants.m */; };
 		73D5402A1525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		73D5402C1525D59600C57E1B /* ObjectiveCEnumStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73D5402C1525D59600C57E1B /* ObjectiveCEnumStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73D72A081675F1FD007912F1 /* ClassInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D72A071675F1FD007912F1 /* ClassInfoTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		73D76C5B1660BBE900B611AB /* RegisterCommentComponentsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D76C5A1660BBE900B611AB /* RegisterCommentComponentsTask.m */; };
 		73D76C5C1660BBE900B611AB /* RegisterCommentComponentsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D76C5A1660BBE900B611AB /* RegisterCommentComponentsTask.m */; };
@@ -385,7 +385,7 @@
 		73D540251525A8BA00C57E1B /* StoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreConstants.h; sourceTree = "<group>"; };
 		73D540261525A8BA00C57E1B /* StoreConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreConstants.m; sourceTree = "<group>"; };
 		73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCPragmaMarkStateTests.m; sourceTree = "<group>"; };
-		73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCEnumStateTests.mm; sourceTree = "<group>"; };
+		73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCEnumStateTests.m; sourceTree = "<group>"; };
 		73D72A071675F1FD007912F1 /* ClassInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassInfoTests.m; sourceTree = "<group>"; };
 		73D76C591660BBD900B611AB /* RegisterCommentComponentsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterCommentComponentsTask.h; sourceTree = "<group>"; };
 		73D76C5A1660BBE900B611AB /* RegisterCommentComponentsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterCommentComponentsTask.m; sourceTree = "<group>"; };
@@ -576,7 +576,7 @@
 				738F418F15232E6B008CB370 /* ObjectiveCPropertyStateTests.m */,
 				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.m */,
 				73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m */,
-				73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.mm */,
+				73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.m */,
 				7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */,
 				73239A1C1557BF150077AB8A /* ObjectiveCConstantStateTests.mm */,
 				737C82A8152310C80064DC46 /* ObjectiveCStateTestsHelpers.h */,
@@ -997,7 +997,7 @@
 				73D540241525A72D00C57E1B /* ObjectiveCMethodStateTests.m in Sources */,
 				73D540281525A8BA00C57E1B /* StoreConstants.m in Sources */,
 				73D5402A1525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m in Sources */,
-				73D5402C1525D59600C57E1B /* ObjectiveCEnumStateTests.mm in Sources */,
+				73D5402C1525D59600C57E1B /* ObjectiveCEnumStateTests.m in Sources */,
 				7316B9D815359DEE000F12F3 /* ObjectInfoBase.m in Sources */,
 				7381A66F1536C05F00BF9BDD /* InterfaceInfoBase.m in Sources */,
 				7381A6741536C35100BF9BDD /* ClassInfo.m in Sources */,
