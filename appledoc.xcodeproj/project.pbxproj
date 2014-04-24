@@ -73,7 +73,7 @@
 		734425131517631F00B6EC33 /* ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425121517631F00B6EC33 /* ParserTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		734425161517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
 		734425171517645A00B6EC33 /* AppledocTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 734425151517645A00B6EC33 /* AppledocTask.m */; };
-		7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7345ED901553B4690092FA57 /* ObjectiveCStateTestsHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 737C82A9152310C80064DC46 /* ObjectiveCStateTestsHelpers.m */; };
 		7345ED971553C9AD0092FA57 /* ObjectiveCParseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345ED961553C9AD0092FA57 /* ObjectiveCParseData.m */; };
 		7345ED981553C9AD0092FA57 /* ObjectiveCParseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345ED961553C9AD0092FA57 /* ObjectiveCParseData.m */; };
@@ -297,7 +297,7 @@
 		734425121517631F00B6EC33 /* ParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserTests.m; sourceTree = "<group>"; };
 		734425141517645A00B6EC33 /* AppledocTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppledocTask.h; sourceTree = "<group>"; };
 		734425151517645A00B6EC33 /* AppledocTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppledocTask.m; sourceTree = "<group>"; };
-		7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCStructStateTests.mm; sourceTree = "<group>"; };
+		7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCStructStateTests.m; sourceTree = "<group>"; };
 		7345ED951553C9AD0092FA57 /* ObjectiveCParseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCParseData.h; sourceTree = "<group>"; };
 		7345ED961553C9AD0092FA57 /* ObjectiveCParseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCParseData.m; sourceTree = "<group>"; };
 		7349F65A153EDA5C004D7AC7 /* MethodArgumentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodArgumentInfo.h; sourceTree = "<group>"; };
@@ -577,7 +577,7 @@
 				73D540231525A72D00C57E1B /* ObjectiveCMethodStateTests.m */,
 				73D540291525CBB700C57E1B /* ObjectiveCPragmaMarkStateTests.m */,
 				73D5402B1525D59600C57E1B /* ObjectiveCEnumStateTests.m */,
-				7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.mm */,
+				7345ED8E1553B2E40092FA57 /* ObjectiveCStructStateTests.m */,
 				73239A1C1557BF150077AB8A /* ObjectiveCConstantStateTests.mm */,
 				737C82A8152310C80064DC46 /* ObjectiveCStateTestsHelpers.h */,
 				737C82A9152310C80064DC46 /* ObjectiveCStateTestsHelpers.m */,
@@ -1027,7 +1027,7 @@
 				73F5C87115480DFF005BE2D6 /* CategoryInfoTests.m in Sources */,
 				73A589FE15493F5B003838E0 /* DescriptorsInfo.m in Sources */,
 				688BF92C1893C02F0082E853 /* InterfaceInfoBaseTests.m in Sources */,
-				7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.mm in Sources */,
+				7345ED8F1553B2E40092FA57 /* ObjectiveCStructStateTests.m in Sources */,
 				7345ED901553B4690092FA57 /* ObjectiveCStateTestsHelpers.m in Sources */,
 				7345ED981553C9AD0092FA57 /* ObjectiveCParseData.m in Sources */,
 				68F12A111893C53F00533F46 /* Constants.m in Sources */,
